@@ -213,16 +213,14 @@ footer {
 .home .intro .upper-image {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .home .intro .upper-image {
     width: 100%;
     padding: 0;
+    margin: auto;
   }
-}
-.home .intro .upper-image img {
-  max-width: 100%;
-  height: auto;
 }
 .home .intro h2 {
   padding: 15px;
@@ -274,7 +272,7 @@ footer {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     width: 100%;
-    padding: 15px;
+    padding: 0;
   }
 }
 .home .walk .walk-text {
@@ -321,7 +319,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0;
   }
 }
 .home .walk .walk-img img {
